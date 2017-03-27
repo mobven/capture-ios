@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "Capture iOS SDK"
+  s.name = "capture-ios"
   s.version = "1.0.0"
   s.summary = "Capture iOS SDK Cocoapod Spec File"
   s.license = {"type"=>"Proprietary"}
