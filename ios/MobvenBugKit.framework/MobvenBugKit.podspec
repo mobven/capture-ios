@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
 
-  s.source       = { :git => "https://github.com/mobven/bugtrackerIOS.git", :branch => "future/cocoapod" }
+  s.source       = { :git => "https://github.com/mobven/bugtrackerIOS.git", :tag => "1.0.0" }
   s.source_files = "Sources/**/*.{h,m}"
 
   s.public_header_files = "Sources/**/*.{h}"
