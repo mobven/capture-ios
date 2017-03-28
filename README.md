@@ -36,7 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-For testing and development purposes, APP_SECRET, APP_ID and PROJECT_ID can be set to "1".
 
 ### Objective C
 To use MobvenBugKit with Objective C projects, add the following codes to AppDelegate.m file.
