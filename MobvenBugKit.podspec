@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source = { :path => '.' }
 
   s.ios.deployment_target    = '8.0'
-  s.ios.vendored_framework   = 'ios/MobvenBugKit.framework'
+  s.ios.vendored_framework   = 'framework/MobvenBugKit.framework'
 end
