@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/MobvenBugReportEventModel.h</key>
 		<data>
-		Ri3rBfdKEXcbSubMQmTpE22pwS8=
+		ponKg6T98cBzQmcKti/Zi4P9SMQ=
 		</data>
 		<key>Headers/MobvenBugReportLogger.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/MobvenBugReportSingleton.h</key>
 		<data>
-		b8rXvoXJK4j/Hn8+SEzX+hdGfms=
+		g+YNGKPwwsu+3qp6RF1Lb7gk5cE=
 		</data>
 		<key>Headers/MobvenBugReportStorageModel.h</key>
 		<data>
@@ -174,47 +174,15 @@
 		</data>
 		<key>Headers/MobvenServiceManager.h</key>
 		<data>
-		UBn8xp4oYU93KHPOy6uxcis4NEU=
+		Rt8onl2anT0uzy4wDpGe10hFGaQ=
 		</data>
 		<key>Headers/MobvenShowBugViewController.h</key>
 		<data>
 		ComfSIRT6yFqA+mvdJDuaGSujc8=
 		</data>
-		<key>Headers/NSBundle+MobvenBugKit.h</key>
-		<data>
-		yiKKy9Ph2lz0Xv4eJ4pwzvj12xw=
-		</data>
-		<key>Headers/NSString+MobvenEmail.h</key>
-		<data>
-		jrbYeama6qihaQfqPbGNym9Wiy8=
-		</data>
-		<key>Headers/UIControl+MobvenShakeDetector.h</key>
-		<data>
-		qKE47uWG3iccobRvUb1fDB3l4IM=
-		</data>
-		<key>Headers/UIImage+MobvenBugKit.h</key>
-		<data>
-		VOszN9xDUcbfk9tEE5IcDzoh5hU=
-		</data>
-		<key>Headers/UILabel+MobvenBoldify.h</key>
-		<data>
-		gGWJGX217ItJxpBH8GWG5bk3qLM=
-		</data>
-		<key>Headers/UIView+MobvenBugReporter.h</key>
-		<data>
-		WBCW+OU1TwsDytBhlVHZMaWmVTc=
-		</data>
-		<key>Headers/UIViewController+MobvenShakeDetector.h</key>
-		<data>
-		NhuAfxudu33BHBogXqNmYb5KN9I=
-		</data>
-		<key>Headers/UIWindow+MobvenBugKit.h</key>
-		<data>
-		M1r0IUBn+hvAA1SZzPhmh8fMD74=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		2XrztcGZvs29JgJqn8gcbJB78fA=
+		hMs6KfEUXeQRgomW5cSiS7ZWOEg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -461,11 +429,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ri3rBfdKEXcbSubMQmTpE22pwS8=
+			ponKg6T98cBzQmcKti/Zi4P9SMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xVgE+mKAqzb3BHk+/d1qbIJfkCwqHC/4aq+CSAPDoRk=
+			7x1RGvCBIQYuFn/KStyeSs2lHhVBUWgcCVCAbTw2GM8=
 			</data>
 		</dict>
 		<key>Headers/MobvenBugReportLogger.h</key>
@@ -549,11 +517,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b8rXvoXJK4j/Hn8+SEzX+hdGfms=
+			g+YNGKPwwsu+3qp6RF1Lb7gk5cE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nTK19YDtRzCKSOI8XB20CTWBflND4tj0gyoaUFKGAKU=
+			KrAbLj+8MG7nIjJxbXGF3dE2vijyqc8lIYKRDet2HXU=
 			</data>
 		</dict>
 		<key>Headers/MobvenBugReportStorageModel.h</key>
@@ -813,11 +781,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UBn8xp4oYU93KHPOy6uxcis4NEU=
+			Rt8onl2anT0uzy4wDpGe10hFGaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			YOGSJyKQGG2dBMuWFsBgGLmOhEPMGIcRXQgG9nEcRO4=
+			ILkHvJIsB8oeZZEXABlcVH8Guug+vEVPmajiaPo1B1k=
 			</data>
 		</dict>
 		<key>Headers/MobvenShowBugViewController.h</key>
@@ -829,94 +797,6 @@
 			<key>hash2</key>
 			<data>
 			af5Yxcv543mtZCrXDCMrR1EHcMK36E6mOM+muCV0oaI=
-			</data>
-		</dict>
-		<key>Headers/NSBundle+MobvenBugKit.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yiKKy9Ph2lz0Xv4eJ4pwzvj12xw=
-			</data>
-			<key>hash2</key>
-			<data>
-			8BVvCp36IwZqRlBZlB+4kqqU7vsXsPqNUyyfJW69hWI=
-			</data>
-		</dict>
-		<key>Headers/NSString+MobvenEmail.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jrbYeama6qihaQfqPbGNym9Wiy8=
-			</data>
-			<key>hash2</key>
-			<data>
-			sIdeZPXOLNJsk7kwEFU4c+KQk+3paabbTMt0EBpmTeo=
-			</data>
-		</dict>
-		<key>Headers/UIControl+MobvenShakeDetector.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qKE47uWG3iccobRvUb1fDB3l4IM=
-			</data>
-			<key>hash2</key>
-			<data>
-			vxUPyJ0VkOuYhmrk/iKzuBIbjjglNGRnHfzU1BZBwxI=
-			</data>
-		</dict>
-		<key>Headers/UIImage+MobvenBugKit.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VOszN9xDUcbfk9tEE5IcDzoh5hU=
-			</data>
-			<key>hash2</key>
-			<data>
-			kEnA9sIhIDL/DNvTRcvQPuCx1m5plKWb8ATLw08ZCJM=
-			</data>
-		</dict>
-		<key>Headers/UILabel+MobvenBoldify.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gGWJGX217ItJxpBH8GWG5bk3qLM=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q+0QX4RuNFqPqoTUtpmLjK7khsHPzhDRjj22piZrevA=
-			</data>
-		</dict>
-		<key>Headers/UIView+MobvenBugReporter.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WBCW+OU1TwsDytBhlVHZMaWmVTc=
-			</data>
-			<key>hash2</key>
-			<data>
-			h8gupryZeWsIuuxLjnYDpP2/+1GpfQ/aiAxUceSyWJU=
-			</data>
-		</dict>
-		<key>Headers/UIViewController+MobvenShakeDetector.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NhuAfxudu33BHBogXqNmYb5KN9I=
-			</data>
-			<key>hash2</key>
-			<data>
-			DIoz8KWk+C0qxYaF6HXYUzFVKRFU4JbBoB/jTtp/mN0=
-			</data>
-		</dict>
-		<key>Headers/UIWindow+MobvenBugKit.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			M1r0IUBn+hvAA1SZzPhmh8fMD74=
-			</data>
-			<key>hash2</key>
-			<data>
-			88qH88O/uwWiTs1vzCgAj5LzjgKvPiW+z+nJhH6icDI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

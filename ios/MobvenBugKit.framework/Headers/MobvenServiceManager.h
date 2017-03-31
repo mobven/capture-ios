@@ -37,4 +37,12 @@
                         success:(void (^)(NSDictionary *response))success
                         failure:(void (^)(NSError *error))failure;
 
++(void)sendMomentumizeScenario:(NSDictionary*)params
+                       success:(void (^)(NSDictionary *))success
+                       failure:(void (^)(NSError *))failure;
+
++ (void)getMomentumizeID:(NSString *)screenKey
+                 success:(void (^)(NSDictionary *))success
+                 failure:(void (^)(NSError *))failure;
+
 @end
