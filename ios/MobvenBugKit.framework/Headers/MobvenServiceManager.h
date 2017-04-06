@@ -45,4 +45,5 @@
                  success:(void (^)(NSDictionary *))success
                  failure:(void (^)(NSError *))failure;
 
++ (void)changeEndpoint:(NSString *)newEndpoint;
 @end

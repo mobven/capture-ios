@@ -15,4 +15,10 @@
                   projectId:(NSString * _Nonnull)projectId
                 invokeTypes:(NSArray<NSNumber *> * _Nonnull)invokeTypes;
 
++ (void)initializeEndpoint:(NSString * _Nullable)endpoint
+                 appSecret:(NSString * _Nonnull)secret
+                      appId:(NSString * _Nonnull)appId
+                  projectId:(NSString * _Nonnull)projectId
+                invokeTypes:(NSArray<NSNumber *> * _Nonnull)invokeTypes;
+
 @end
