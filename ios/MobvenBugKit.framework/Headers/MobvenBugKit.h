@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MobvenBugKit/MobvenBugReporter.h>
+#import <MobvenBugKit/MobvenBugReportEventModel.h>
 
 //! Project version number for MobvenBugKit iOS.
 FOUNDATION_EXPORT double MobvenBugKitVersionNumber;
