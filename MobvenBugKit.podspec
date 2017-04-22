@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "MobvenBugKit"
-  s.version = "1.1.15"
+  s.version = "1.1.18"
   s.summary = "Mobven Bug Kit Cocoapod Spec File"
   s.license = {"type"=>"Proprietary"}
   s.authors = {"Caner Y. Tatar"=>"tatar@mobven.com"}
