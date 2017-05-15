@@ -20,7 +20,6 @@ typedef NS_ENUM(NSUInteger, InvocationType) {
 typedef NS_ENUM(NSUInteger, ReportType) {
     ReportTypeNone            = 0,
     ReportTypeSendReport      = 1,
-    ReportTypeMomentumize     = 2
 };
 
 @interface MobvenBugReportEventModel : NSObject
