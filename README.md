@@ -8,6 +8,7 @@ Capture greatly improves your mobile testing processes. Just shake the phone to 
 ### Note:
 * iOS 9.0 and newer are supported
 * Swift 3.0 and newer are supported
+* Simulators are not supported, place an if statement checking the Build Architecture
 
 ### CocoaPods
 To install with CocoaPods, simply add the following line to your Podfile:
