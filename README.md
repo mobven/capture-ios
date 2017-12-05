@@ -28,9 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-    	MBKReporter.start(withAppSecret: "1", appId: "1", projectId: "993", for: [.floatingButton, .shake, .screenshot])
+    	MBKReporter.start(withAppSecret: <APP_SECRET>, appId: <APP_ID>, projectId: <PROJECT_ID>, for: [.floatingButton, .shake, .screenshot])
 
-		return true
+    	return true
     }
 }
 ```
@@ -50,9 +50,12 @@ To use MobvenBugKit with Objective C projects, add the following codes to AppDel
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	// Override point for customization after application launch.
 
-	[MobvenBugReporter initializeAppSecret:<APP_SECRET> appId:<APP_ID> projectId:<PROJECT_ID> invokeTypes:@[@(Shake), @(FloatingButton)]];
+	[MBKReporter startWithAppSecret:<APP_SECRET>
+                              appId:<APP_ID>
+                          projectId:<PROJECT_ID>
+                forInvocationOption:MBKInvocationOptionScreenshot | MBKInvocationOptionFloatingButton | MBKInvocationOptionShake];
+
 	return YES;
 }
 @end
