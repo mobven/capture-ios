@@ -52,9 +52,9 @@ To use MobvenBugKit with Objective C projects, add the following codes to AppDel
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 	[MBKReporter startWithAppSecret:<APP_SECRET>
-							  appId:<APP_ID>
-						  projectId:<PROJECT_ID>
-				forInvocationOption:MBKInvocationOptionScreenshot | MBKInvocationOptionFloatingButton | MBKInvocationOptionShake];
+	appId:<APP_ID>
+	projectId:<PROJECT_ID>
+	forInvocationOption:MBKInvocationOptionScreenshot | MBKInvocationOptionFloatingButton | MBKInvocationOptionShake];
 
 	return YES;
 }
