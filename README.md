@@ -6,14 +6,13 @@ Capture greatly improves your mobile testing processes. Just shake the phone to 
 
 ## Installation
 ### Note:
-* iOS 8.0 and newer are supported
+* iOS 9.0 and newer are supported
 * Swift 3.0 and newer are supported
-* To use with iOS 11, please use ios11 branch.
 
 ### CocoaPods
 To install with CocoaPods, simply add the following line to your Podfile:
 
-<code>pod 'MobvenBugKit', :git => 'https://github.com/mobven/capture-ios.git'</code>
+<code>pod 'MobvenBugKit', :git => 'https://github.com/mobven/capture-ios.git', :branch => 'development'</code>
 
 ### Swift
 To use MobvenBugKit within your project, import and initialize framework into AppDelegate.swift
@@ -28,9 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-      let types = [NSNumber(value:InvocationType.Shake.rawValue),
-					NSNumber(value:InvocationType.FloatingButton.rawValue)]
-	    MobvenBugReporter.initializeAppSecret(<APP_SECRET>, appId: <APP_ID>, projectId: <PROJECT_ID>, invokeTypes:types)
+
+    	MBKReporter.start(withAppSecret: "1", appId: "1", projectId: "993", for: [.floatingButton, .shake, .screenshot])
 
 		return true
     }
