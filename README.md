@@ -36,12 +36,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ```
 
 
-### Objective C
-To use MobvenBugKit with Objective C projects, add the following codes to AppDelegate.m file.
+### Objective-C
+To use MobvenBugKit with Objective-C projects, add the following codes to AppDelegate.m file.
 
 ```objective-c
 #import "AppDelegate.h"
 #import <MobvenBugKit/MobvenBugKit.h>
+
 @interface AppDelegate ()
 
 @end
