@@ -1,13 +1,20 @@
 Pod::Spec.new do |s|
-  s.name = "MobvenBugKit"
-  s.version = "1.2.7"
-  s.summary = "Mobven Bug Kit Cocoapod Spec File"
-  s.license = {"type"=>"Proprietary"}
-  s.authors = {"Caner Y. Tatar"=>"tatar@mobven.com"}
-  s.homepage = "https://github.com/mobven/capture-ios"
-  s.description = "MobvenBugKit"
-  s.source = { :path => '.' }
 
-  s.ios.deployment_target    = '8.0'
+  s.name         = "MobvenBugKit"
+  s.version      = "2.0.0"
+  s.summary      = "Shake your device and report the bugs!"
+
+  s.description  = "MobvenBugKit enables seamless bug reporting functionality with fantastic features in your iOS app."
+
+  s.homepage     = "https://github.com/mobven/bugtrackerIOS"
+
+  s.license      = { :type => "Proprietary" }
+
+  s.author             = { "Tolga Bagci" => "t.bagci@mobven.com" }
+
+  s.ios.deployment_target    = "9.0"
   s.ios.vendored_framework   = 'ios/MobvenBugKit.framework'
+
+  s.source       = { :git => "https://github.com/mobven/capture-ios.git", :branch => "development" }
+
 end

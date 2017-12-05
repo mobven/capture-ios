@@ -1,20 +1,19 @@
 //
-//  MobvenBugKit iOS.h
-//  MobvenBugKit iOS
+//  MobvenBugKit.h
+//  MobvenBugKit
 //
-//  Created by Mobven Dev on 20/03/17.
-//  Copyright © 2017 Ahmet Kazim Günay. All rights reserved.
+//  Created by Tolga Bagci on 18/09/2017.
+//  Copyright © 2017 Mobven. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <MobvenBugKit/MobvenBugReporter.h>
-#import <MobvenBugKit/MobvenBugReportEventModel.h>
+#import <MobvenBugKit/MBKReporter.h>
+#import <MobvenBugKit/MBKInvocationOptions.h>
 
-//! Project version number for MobvenBugKit iOS.
+//! Project version number for MobvenBugKit.
 FOUNDATION_EXPORT double MobvenBugKitVersionNumber;
 
-//! Project version string for MobvenBugKit iOS.
+//! Project version string for MobvenBugKit.
 FOUNDATION_EXPORT const unsigned char MobvenBugKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MobvenBugKit/PublicHeader.h>
-
