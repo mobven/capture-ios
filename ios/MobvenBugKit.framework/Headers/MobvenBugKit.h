@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MobvenBugKit/MBKReporter.h>
-#import <MobvenBugKit/MBKInvocationOptions.h>
+#import <MobvenBugKit/MobvenBugKitPublicHeader.h>
 
 //! Project version number for MobvenBugKit.
 FOUNDATION_EXPORT double MobvenBugKitVersionNumber;

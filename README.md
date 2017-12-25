@@ -4,6 +4,8 @@ Capture makes reporting bugs easy, which increases the productivity of your test
 
 Capture greatly improves your mobile testing processes. Just shake the phone to report a bug and be amazed how easy it can be.
 
+Capture provides different types of rich attachments for your bug reports. You can markup your screenshots while simultaneously annotating with your voice. You can also record visual app flow with voice annotation, and many more! 
+
 ## Installation
 ### Note:
 * iOS 9.0 and newer are supported
@@ -36,6 +38,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
+#### Console Logs in Swift Projects
+To enable console logs within your Swift project, just add the following code snippet in your AppDelegate file (outside of the class definition).
+
+```swift
+public func print(_ items: Any..., separator: String = " ", terminator: String = "\n") {
+
+    let output = items.map { "\($0)" }.joined(separator: separator)
+
+    Swift.print(output, terminator: terminator);
+
+    MBKConsoleLogManager.log(output)
+}
+```
+
 
 ### Objective-C
 To use MobvenBugKit with Objective-C projects, add the following codes to AppDelegate.m file.
@@ -61,4 +77,21 @@ To use MobvenBugKit with Objective-C projects, add the following codes to AppDel
 	return YES;
 }
 @end
+```
+
+#### Console Logs in Objective-C Projects
+To enable console logs within your Objective-C projects, just add the following code snippet in your AppDelegate file (outside of the class definition).
+
+```objective-c
+inline void NSLog(NSString *format, ...) {
+
+    va_list arg_list;
+    va_start(arg_list, format);
+
+    NSMutableString * message = [[NSMutableString alloc] initWithFormat:format arguments:arg_list];
+    [MBKConsoleLogManager log:message];
+    
+    NSLogv(format, arg_list);
+    va_end(arg_list);
+}
 ```
