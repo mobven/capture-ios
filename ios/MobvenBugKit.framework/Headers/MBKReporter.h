@@ -12,8 +12,8 @@
 @interface MBKReporter : NSObject
 
 /**
- @param appSecret N/A.
- @param appId N/A.
+ @param appSecret N/A at this time. Use "1" for now.
+ @param appId N/A at this time. Use "1" for now.
  @param projectId The token that identifies the app provided by Mobven Technology.
  @param invocationOption The event types that invoke the bug reporter UI.
  */
