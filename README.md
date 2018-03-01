@@ -15,9 +15,15 @@ To install with CocoaPods, simply add the following line to your Podfile:
 
 <code>pod 'MobvenBugKit', :git => 'https://github.com/mobven/capture-ios.git'</code>
 
+To update version, run following command:
+
+### pod update
+
 ### Swift
 To use MobvenBugKit within your project, import and initialize framework into AppDelegate.swift
-file as seen below.
+file as seen below. 
+
+### Also you need to accept requested permissions by MobvenBugKit. 
 
 ```swift
 import MobvenBugKit
