@@ -9,6 +9,7 @@ Capture greatly improves your mobile testing processes. Just shake the phone to 
 * iOS 8.0 and newer are supported
 * Swift 3.0 and newer are supported
 * To use with iOS 11, please use ios11 branch.
+* Simulators are not supported, place an if statement checking the Build Architecture
 * You need to accept requested permissions by MobvenBugKit. 
 
 
