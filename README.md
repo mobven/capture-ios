@@ -9,6 +9,8 @@ Capture greatly improves your mobile testing processes. Just shake the phone to 
 * iOS 8.0 and newer are supported
 * Swift 3.0 and newer are supported
 * To use with iOS 11, please use ios11 branch.
+* You need to accept requested permissions by MobvenBugKit. 
+
 
 ### CocoaPods
 To install with CocoaPods, simply add the following line to your Podfile:
@@ -19,11 +21,20 @@ To update version, run following command:
 
 <code>pod update</code>
 
+Add following lines to your project info.plist:
+
+<code>\<key>NSCameraUsageDescription\</key></code>  
+<code>\<string>Capture!\</string></code>  
+<code>\<key>NSMicrophoneUsageDescription\</key></code>  
+<code>\<string>Capture!\</string></code>  
+<code>\<key>NSPhotoLibraryUsageDescription\</key></code>  
+<code>\<string>Capture!\</string></code>  
+
+
+
 ### Swift
 To use MobvenBugKit within your project, import and initialize framework into AppDelegate.swift
 file as seen below. 
-
-Also you need to accept requested permissions by MobvenBugKit. 
 
 ```swift
 import MobvenBugKit
