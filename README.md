@@ -17,13 +17,13 @@ To install with CocoaPods, simply add the following line to your Podfile:
 
 To update version, run following command:
 
-### pod update
+<code>pod update</code>
 
 ### Swift
 To use MobvenBugKit within your project, import and initialize framework into AppDelegate.swift
 file as seen below. 
 
-### Also you need to accept requested permissions by MobvenBugKit. 
+Also you need to accept requested permissions by MobvenBugKit. 
 
 ```swift
 import MobvenBugKit
