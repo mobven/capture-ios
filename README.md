@@ -6,9 +6,8 @@ Capture greatly improves your mobile testing processes. Just shake the phone to 
 
 ## Installation
 ### Note:
-* iOS 8.0 and newer are supported
+* iOS 9.0 and newer are supported
 * Swift 3.0 and newer are supported
-* To use with iOS 11, please use ios11 branch.
 * Simulators are not supported, place an if statement checking the Build Architecture
 * You need to accept requested permissions by MobvenBugKit. 
 
@@ -31,8 +30,6 @@ Add following lines to your project info.plist:
 <code>\<key>NSPhotoLibraryUsageDescription\</key></code>  
 <code>\<string>Capture!\</string></code>  
 
-
-
 ### Swift
 To use MobvenBugKit within your project, import and initialize framework into AppDelegate.swift
 file as seen below.
@@ -43,14 +40,14 @@ import MobvenBugKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-var window: UIWindow?
+    var window: UIWindow?
 
-func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-MBKReporter.start(withAppSecret: <APP_SECRET>, appId: <APP_ID>, projectId: <PROJECT_ID>, for: [.floatingButton, .shake, .screenshot])
+    	MBKReporter.start(withAppSecret: <APP_SECRET>, appId: <APP_ID>, projectId: <PROJECT_ID>, for: [.floatingButton, .shake, .screenshot])
 
-return true
-}
+    	return true
+    }
 }
 ```
 
@@ -60,11 +57,11 @@ To enable console logs within your Swift project, just add the following code sn
 ```swift
 public func print(_ items: Any..., separator: String = " ", terminator: String = "\n") {
 
-let output = items.map { "\($0)" }.joined(separator: separator)
+    let output = items.map { "\($0)" }.joined(separator: separator)
 
-Swift.print(output, terminator: terminator);
+    Swift.print(output, terminator: terminator);
 
-MBKConsoleLogManager.log(output)
+    MBKConsoleLogManager.log(output)
 }
 ```
 
@@ -85,12 +82,12 @@ To use MobvenBugKit with Objective-C projects, add the following codes to AppDel
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-[MBKReporter startWithAppSecret:<APP_SECRET>
-appId:<APP_ID>
-projectId:<PROJECT_ID>
-forInvocationOption:MBKInvocationOptionScreenshot | MBKInvocationOptionFloatingButton | MBKInvocationOptionShake];
+	[MBKReporter startWithAppSecret:<APP_SECRET>
+				      appId:<APP_ID>
+				  projectId:<PROJECT_ID>
+		forInvocationOption:MBKInvocationOptionScreenshot | MBKInvocationOptionFloatingButton | MBKInvocationOptionShake];
 
-return YES;
+	return YES;
 }
 @end
 ```
@@ -101,13 +98,14 @@ To enable console logs within your Objective-C projects, just add the following 
 ```objective-c
 inline void NSLog(NSString *format, ...) {
 
-va_list arg_list;
-va_start(arg_list, format);
+    va_list arg_list;
+    va_start(arg_list, format);
 
-NSMutableString * message = [[NSMutableString alloc] initWithFormat:format arguments:arg_list];
-[MBKConsoleLogManager log:message];
-
-NSLogv(format, arg_list);
-va_end(arg_list);
+    NSMutableString * message = [[NSMutableString alloc] initWithFormat:format arguments:arg_list];
+    [MBKConsoleLogManager log:message];
+    
+    NSLogv(format, arg_list);
+    va_end(arg_list);
 }
 ```
+
