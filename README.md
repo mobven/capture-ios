@@ -9,7 +9,7 @@ Capture greatly improves your mobile testing processes. Just shake the phone to 
 * iOS 9.0 and newer are supported
 * Swift 3.0 and newer are supported
 * Simulators are not supported, place an if statement checking the Build Architecture
-* You need to accept requested permissions by MobvenBugKit. 
+* You need to accept requested permissions by Capture. 
 
 
 ### CocoaPods
