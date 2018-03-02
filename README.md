@@ -16,7 +16,7 @@ Capture greatly improves your mobile testing processes. Just shake the phone to 
 ### CocoaPods
 To install with CocoaPods, simply add the following line to your Podfile:
 
-<code>pod 'MobvenBugKit', :git => 'https://github.com/mobven/capture-ios.git'</code>
+<code>pod 'MobvenBugKit', :git => 'https://github.com/mobven/capture-ios.git', :branch => 'development'</code>
 
 To update version, run following command:
 
